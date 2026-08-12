@@ -49,8 +49,7 @@ Once the above is completed the file Example-0.0.1-SNAPSHOT.war will be created 
 
 2. Now its time for docker, first build the docker image as below command, make sure you are running from the directory which have Dockerfile, otherwise add the dockerfile with path and name in the command too
 ```
-$docker build -t tomcat-sample:1.0 .
-
+$docker build -t tomcat-sample:1.0 .hh
 Sending build context to Docker daemon  271.9kB
 Step 1/2 : FROM tomcat:8.0.20-jre8
  ---> e88a065848be
